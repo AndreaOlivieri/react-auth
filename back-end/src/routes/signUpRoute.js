@@ -1,5 +1,6 @@
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
+import axios from "axios";
 import { getDbConnection } from "../db";
 
 export const signUpRoute = {
